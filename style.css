@@ -1,11 +1,11 @@
-body {
+#body {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     background-image: url("img/background.jpg")
 }
 .container {
     width: 850px;
 }
-a {
+.link {
     text-decoration: none;
 }
 
@@ -35,18 +35,18 @@ a {
     margin-right: 5px;
 }
 
-table {
+#course {
     table-layout: fixed;
     width: 100%;
     border-collapse: separate;
 }
-th {
+.th {
     font-weight: normal;
     font-size: large;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-td {
+.td {
     border-radius: 10px;
     height: 80px;
 }
@@ -56,6 +56,6 @@ td {
     text-align: right;
     opacity: 80%;
 }
-#footer a {
+#footer .link {
     color: #ec886f;
 }

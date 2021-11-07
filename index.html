@@ -15,12 +15,12 @@
     <title>Page | Sori Lim</title>
 </head>
 
-<body>
+<body id="body">
 
     <!--Basic profile-->
     <img src="img/profile-pic.jpg" id="profile-pic" class="rounded-circle mx-auto d-block border border-white border border-5" alt="my cat">
     <div id="bio" class="container shadow mb-3 bg-body rounded text-center">
-        <p class="text-end p-4"><a class="btn btn-outline-primary" href="mailto:drwho@g.skku.edu" role="button">drwho@g.skku.edu</a></p>
+        <p class="text-end p-4"><a class="link btn btn-outline-primary" href="mailto:drwho@g.skku.edu" role="button">drwho@g.skku.edu</a></p>
         <div id="bio-text">
             <h1>Sori LIM</h1>
             <h6>College Student, Sophomore</h6>
@@ -31,7 +31,7 @@
     <div class="container shadow p-4 pb-2 mb-5 bg-body rounded text-center">
         <p>
             Welcome, this is Sori Lim's page (caution: not sorry!). I am an undegraduate student,
-            majoring in Computer Science at <a href="https://www.skku.edu/skku/index.do">Sungkyunkwan University</a>.
+            majoring in Computer Science at <a href="https://www.skku.edu/skku/index.do" class="link">Sungkyunkwan University</a>.
             I have not decided which specific field I should concentrate on in future yet,
             but I am studying hard and hope I could find my passion soon.
 
@@ -72,39 +72,39 @@
     <div class="container shadow p-4 mb-5 bg-body rounded text-center">
         <h4>COURSES</h4>
         <p>But of course, I love my major the most! So far, I've learned...</p>
-        <table>
+        <table id="course">
             <tr>
-                <th colspan="2" class="p-1 border-bottom">2020</th>
-                <th colspan="2" class="p-1 border-bottom">2021</th>
+                <th colspan="2" class="th p-1 border-bottom">2020</th>
+                <th colspan="2" class="th p-1 border-bottom">2021</th>
             </tr>
             <tr class="p-5">
-                <th class="border-start">Spring</th>
-                <th class="border-end">Fall</th>
-                <th class="border-start">Spring</th>
-                <th class="border-end">Fall</th>
+                <th class="th border-start">Spring</th>
+                <th class="th border-end">Fall</th>
+                <th class="th border-start">Spring</th>
+                <th class="th border-end">Fall</th>
             </tr>
             <tr>
-                <td class="p-2 border">Basis and Practice in Programming</td>
-                <td class="p-2 border">Computer Programming for Engineers</td>
-                <td class="p-2 border">System Program</td>
-                <td class="p-2 border">System Programming Lab</td>
+                <td class="td p-2 border">Basis and Practice in Programming</td>
+                <td class="td p-2 border">Computer Programming for Engineers</td>
+                <td class="td p-2 border">System Program</td>
+                <td class="td p-2 border">System Programming Lab</td>
             </tr>
             <tr>
-                <td class="p-2 border">Introduction to Computer Engineering</td>
-                <td class="p-2 border">Data Structures</td>
-                <td class="p-2 border">Java Programming Lab</td>
-                <td class="p-2 border">Algorithms</td>
+                <td class="td p-2 border">Introduction to Computer Engineering</td>
+                <td class="td p-2 border">Data Structures</td>
+                <td class="td p-2 border">Java Programming Lab</td>
+                <td class="td p-2 border">Algorithms</td>
             </tr>
             <tr>
-                <td></td>
-                <td class="p-2 border">Logic Circuits</td>
-                <td></td>
-                <td class="p-2 border">Open Source Software Practice</td>
+                <td class="td"></td>
+                <td class="td p-2 border">Logic Circuits</td>
+                <td class="td"></td>
+                <td class="td p-2 border">Open Source Software Practice</td>
             </tr>
         </table>
 
         <p><br><br>And during upcoming vaction, I'm planning to do
-            <a href="#more-stuffs" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseExample">more stuffs</a>
+            <a href="#more-stuffs" data-bs-toggle="collapse" class="link" aria-expanded="false" aria-controls="collapseExample">more stuffs</a>
             to advance my knowledge!
         </p>
         <div class="collapse" id="more-stuffs">
@@ -124,16 +124,16 @@
         <h4>CONTACTS</h4>
         <p>If you're interested in anything mentioned earlier, you can see the progress or reach me via...</p>
         <ul class="list-group list-group-horizontal justify-content-center">
-            <li class="list-group-item"><a href="https://github.com/aintbe" target="_blank">GitHub</a></li>
-            <li class="list-group-item"><a href="https://ricochet.notion.site/9642ed3b9c064b0095a89d8e2a3d87a0?v=ccf1f605f4fc4b35be961d6c17fa98ef" target="_blank">Notion</a></li>
-            <li class="list-group-item"><a href="mailto:drwho@g.skku.edu" target="_blank">Email</a></li>
+            <li class="list-group-item"><a href="https://github.com/aintbe" target="_blank" class="link">GitHub</a></li>
+            <li class="list-group-item"><a href="https://ricochet.notion.site/9642ed3b9c064b0095a89d8e2a3d87a0?v=ccf1f605f4fc4b35be961d6c17fa98ef" target="_blank" class="link">Notion</a></li>
+            <li class="list-group-item"><a href="mailto:drwho@g.skku.edu" target="_blank" class="link">Email</a></li>
         </ul>
     </div>
 
     <footer id="footer" class="m-1">
-        <h2 class="text-center"><a href="#" class="text-center"><i class="bi bi-arrow-up-circle"></i></a></h2>
-        Background Image by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Annie Spratt</a>
-        on <a href="https://unsplash.com/s/photos/aesthetic-background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+        <h2 class="text-center"><a href="#" class="link text-center"><i class="bi bi-arrow-up-circle"></i></a></h2>
+        Background Image by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" class="link">Annie Spratt</a>
+        on <a href="https://unsplash.com/s/photos/aesthetic-background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" class="link">Unsplash</a>
     </footer>
 
     
@@ -145,56 +145,3 @@
 </body>
 
 </html>
-
-<!-- https://www.jaeminjo.com/ 참고
-
-    <p>
-                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample">
-                      Button with data-bs-target
-                    </button>
-                  </p>
-                <div class="collapse" id="collapseExample">
-                    <div class="card-body">
-                      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                    </div>
-                </div>
-
-
-
-1. Personal Information (20 pts): The profile page must show your personal information,
-    such as -name, -affiliation, contact information (email), your GitHub account,
-    interests, etc.
-
-3. Links (10 pts): Include at least three hyperlinks using <a>.
-    =====> SKKU, 내 이메일 (이메일 링크 어케 넣는지 위의 사이트 볼 것), 깃허브?
-
-4. Table (10 pts): Include at least one table using <table>.
-
-5. List (10 pts): Include at least one list using <ul> or <ol>.
-
-6. Bootstrap (10 pts): Link the Bootstrap toolkit to your page and use at least
-    three classes that Bootstrap provides. See https://getbootstrap.com/docs/5.0/getting-started/introduction/
-
-7. Utility classes (10 pts): Link the Bootstrap toolkit to your page and use at least
-    three utility classes (other than the three classes you used above). See the “Utilities”
-    tab in the link above.
-
-8. Custom CSS rules (20 pts): Create an CSS file, style.css, and link it to the profile
-    page. Include at least three CSS rules in the CSS file. To select tags, set id or class
-    attributes.
-
-
-
-<style>
-.backround {
-  background-image: url("/image.jpg");
-  background-size: 150px;
-  width: 300px;
-  height: 300px;
-  border: solid 2px red;
-}
-</style>
-
-<div class="backround">
-</div>
--->
